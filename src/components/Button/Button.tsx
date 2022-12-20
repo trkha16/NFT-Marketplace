@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 
 const MyButton = styled(Box)((props: ButtonProps) => ({
-  backgroundColor: props.bgColor,
+  backgroundColor: props.bgcolor,
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -23,7 +23,7 @@ const MyButton = styled(Box)((props: ButtonProps) => ({
 }));
 
 type ButtonProps = {
-  bgColor?: string;
+  bgcolor?: string;
   onClick?: () => void;
   type: "primary" | "secondary" | "tertiary" | "full";
   radius?: string;
@@ -33,7 +33,7 @@ type ButtonProps = {
 }
 
 const Button = ({
-  bgColor = "var(--main-color)",
+  bgcolor = "var(--main-color)",
   onClick,
   type,
   icon,
@@ -43,7 +43,7 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   return (
-    <MyButton type={type} bgColor={bgColor} radius={radius} border={border} {...props}>
+    <MyButton type={type} bgcolor={bgcolor} radius={radius} border={border} {...props}>
       <Box sx={{ display: "flex", gap: "12px" }}>
         {icon}
         {title}

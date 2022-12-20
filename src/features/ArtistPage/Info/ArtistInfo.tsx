@@ -72,7 +72,7 @@ const ArtistInfo = () => {
                 <Button type='secondary' icon={<CopyIcon />} title={<Typography fontWeight="600">0xc0E3...B79C</Typography>} />
               </Box>
               <Box sx={{ width: { md: "145px", xs: "100%" } }}>
-                <Button type='secondary' icon={<PlusIcon />} title={<Typography>Follow</Typography>} bgColor="transparent" border='2px solid var(--main-color)' />
+                <Button type='secondary' icon={<PlusIcon />} title={<Typography>Follow</Typography>} bgcolor="transparent" border='2px solid var(--main-color)' />
               </Box>
             </MyButtonGroup>
           </MyHeader>

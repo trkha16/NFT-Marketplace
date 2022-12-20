@@ -39,7 +39,7 @@ const CollectionCard = ({ ...props }) => {
         <ArtistCard
           imgUrl={props.avaUser}
           name={props.userName}
-          bgColor="transparent"
+          bgcolor="transparent"
           px="0"
           py="0"
         />

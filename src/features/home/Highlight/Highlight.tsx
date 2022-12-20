@@ -48,7 +48,7 @@ const Highlight = () => {
           <Box sx={{ width: "100%", display: { md: "none", xs: "flex" } }}>
             <Button
               type="secondary"
-              bgColor="#fff"
+              bgcolor="#fff"
               icon={<Eye />}
               title={<Typography color="var(--background-main)" fontWeight={600}>See NFT</Typography>}
             />

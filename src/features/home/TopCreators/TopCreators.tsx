@@ -19,7 +19,7 @@ const TopCreators = () => {
               title={
                 <Typography>View Rankings</Typography>
               }
-              bgColor="transparent"
+              bgcolor="transparent"
               border="2px solid var(--main-color)"
             />
           </Box>

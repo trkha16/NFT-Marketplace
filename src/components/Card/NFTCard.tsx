@@ -34,7 +34,7 @@ const NFTCard = () => {
           <Typography variant="h5">NFT Name</Typography>
           <ArtistCard3 imgUrl="https://res.cloudinary.com/trkha1609/image/upload/v1670345833/NFT-Marketplace/Avatar_7_tgqle4.png"
             name={<Typography fontFamily="Space Mono">NFT Artist</Typography>}
-            bgColor="transparent"
+            bgcolor="transparent"
             px="0"
             py="0"
           />

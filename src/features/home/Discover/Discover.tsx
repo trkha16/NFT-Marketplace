@@ -35,7 +35,7 @@ const Discover = () => {
               title={
                 <Typography>See All</Typography>
               }
-              bgColor="transparent"
+              bgcolor="transparent"
               border="2px solid var(--main-color)"
             />
           </Box>
@@ -55,7 +55,7 @@ const Discover = () => {
           title={
             <Typography>See All</Typography>
           }
-          bgColor="transparent"
+          bgcolor="transparent"
           border="2px solid var(--main-color)"
         />
       </Box>
